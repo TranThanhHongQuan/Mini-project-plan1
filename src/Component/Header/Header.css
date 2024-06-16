@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #032541;
+    position: sticky;
+    top: 0; /* Vị trí header sẽ dính ở đầu trang khi cuộn */
+    z-index: 1000; /* Z-index cao hơn các phần tử khác để đảm bảo hiển thị trên cùng */
+
+  }
+  
+  .header-logo img {
+    max-width: 100px;
+    height: 20px; 
+  }
+  
+  .header-nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .header-nav li {
+    margin: 0 15px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .header-search input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .header-auth button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .header-auth button:first-child {
+    background-color: #01b4e4;
+    color: white;
+  }
+  
+  .header-auth button:last-child {
+    background-color: #90cea1;
+    color: white;
+  }
+  

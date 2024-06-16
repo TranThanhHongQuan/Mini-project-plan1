@@ -1,0 +1,29 @@
+.app-footer {
+    background: #001529;
+    color: white;
+    padding: 40px 20px;
+  }
+  
+  .app-footer h4 {
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .app-footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .app-footer ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.65);
+  }
+  .footer-logo img {
+    max-width: 100px;
+    height: 50px; 
+  }
