@@ -1,0 +1,46 @@
+/* Banner.css */
+
+.banner {
+  background-image: url('https://movie-site-delta.vercel.app/img/home-background.png');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.banner h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.banner p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.banner-date {
+  font-size: 1rem;
+}
+
+.triangle-button {
+  position: absolute;
+  bottom: 20px;
+  background-color: #f90;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.triangle-button:hover {
+  background-color: #f60;
+}
